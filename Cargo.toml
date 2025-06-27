@@ -1,0 +1,14 @@
+[package]
+name = "media_editor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+egui = "0.28"                                                             # Major UI updates                                                          # Faster decoding
+ffmpeg-next = "7.1.0"                                                      # FFmpeg 6.1 API
+rodio = "0.19"                                                           
+image = "0.25.6"
+symphonia = "0.5.4"
+all = "0.0.1"
+bevy = "0.16.1"
+bevy_egui = "0.34.1"
